@@ -1,0 +1,42 @@
+﻿Build started 2015-10-18 05:03:36 PM.
+     1>Project "H:\C++\ML Assignment 2\ML2015\clean_slate\smart sweepers.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CQLearningController.cpp
+         CQLearningController.cpp
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\c2dmatrix.h(102): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\c2dmatrix.h(108): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\c2dmatrix.h(110): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\cqlearningcontroller.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\cqlearningcontroller.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\cqlearningcontroller.cpp(48): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\cqlearningcontroller.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\cqlearningcontroller.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\cqlearningcontroller.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\c++\ml assignment 2\ml2015\clean_slate\cqlearningcontroller.cpp(192): warning C4018: '<' : signed/unsigned mismatch
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0809" /nologo /fo".\Debug\Script1.res" Script1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\smart sweepers.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\smart sweepers.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\smart sweepers.lib" /MACHINE:X86 /SAFESEH .\Debug\Script1.res
+         .\Debug\C2DMatrix.obj
+         .\Debug\CBackPropController.obj
+         .\Debug\CCollisionObject.obj
+         .\Debug\CContCollisionObject.obj
+         .\Debug\CContController.obj
+         .\Debug\CController.obj
+         .\Debug\CContMinesweeper.obj
+         .\Debug\CDiscCollisionObject.obj
+         .\Debug\CDiscController.obj
+         .\Debug\CDiscMinesweeper.obj
+         .\Debug\CNeuralNet.obj
+         .\Debug\CParams.obj
+         .\Debug\CQLearningController.obj
+         .\Debug\CTimer.obj
+         .\Debug\main.obj
+         .\Debug\CMinesweeper.obj
+         .\Debug\utils.obj
+         smart sweepers.vcxproj -> H:\C++\ML Assignment 2\ML2015\clean_slate\.\Debug\smart sweepers.exe
+     1>Done Building Project "H:\C++\ML Assignment 2\ML2015\clean_slate\smart sweepers.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.14

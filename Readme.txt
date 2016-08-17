@@ -1,0 +1,3 @@
+This is my assignment submission for Machine Learning course I took during the third year of my degree. We were provided with a Microsoft Visual Studio project, which contained some minesweepers, mines, rocks and super rocks. The purpose of the assignment was to train the minesweepers using Q-Learning so that they maximise the number of mines collected, and minimise the number of collisions with rocks.
+
+The assignment was coded in C++, and my code can be found in CQLearningController.cpp
